@@ -17,7 +17,7 @@
 ---
 
 ## 1 · Define Your Fabric Organization (Phase 1)
-
+- See Prequesites in chainlaunch | <https://docs.chainlaunch.dev/getting-started> |
 - In Chainlaunch GUI, open **Organizations → Create**.  
 - Enter **Org Name**, **MSP ID**, and public domain.  
 - Chainlaunch autogenerates admin identities and stores crypto in the workspace vault.
