@@ -1,4 +1,4 @@
-# Galachain — External‑Organization On‑Boarding (High‑Level Playbook)
+# Galachain — External‑Organization On‑Boarding 
 
 > **Purpose:** Outline, at architecture level, how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain asset-channel** 
 > **Provisioning Surface:** **Chainlaunch Web GUI** only (no CLI syntax).  
