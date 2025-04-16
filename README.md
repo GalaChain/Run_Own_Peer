@@ -1,6 +1,6 @@
 # Galachain — External‑Organization On‑Boarding (High‑Level Playbook)
 
-> **Purpose:** Outline, at architecture level, how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain** channel.  
+> **Purpose:** Outline, at architecture level, how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain asset-channel** 
 > **Provisioning Surface:** **Chainlaunch Web GUI** only (no CLI syntax).  
 
 ---
@@ -38,9 +38,9 @@
 
 | You ➜ Gala | Gala ➜ You |
 |------------|-----------|
-| Public IPs for every peer | **Orderer endpoint map** + **orderer TLS CA cert** |
-| TLS certs for each peer | Confirmation that your IPs are whitelisted |
-| Org root‑CA cert | — |
+| Public IPs for every peer | Confirmation that your IPs are whitelisted  **Orderer endpoint map** + **orderer TLS CA cert** |
+| TLS certs for each peer | Gala appends the information in the channel config |
+|Append the orderer information and mapping when importing the chanel| **Orderer endpoint map** + **orderer TLS CA cert** ||
 
 Gala inserts the respective `PARTNERORGMSP` into the channel config and notifies when ready for join.
 
