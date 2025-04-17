@@ -1,4 +1,4 @@
-# Galachain — External‑Organization On‑Boarding (Chainlaunch)
+# Galachain — Running your Own Peer (Chainlaunch)
 
 > **Purpose:** Instructions/ Guideline how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain asset-channel** 
 > **Provisioning Surface:** **Chainlaunch Web GUI** only (no CLI syntax).  
