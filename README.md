@@ -1,6 +1,6 @@
 # Galachain — External‑Organization On‑Boarding (Chainlaunch)
 
-> **Purpose:** Outline, at architecture level, how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain asset-channel** 
+> **Purpose:** Instructions/ Guideline how an external organization (“Partner Org”) provisions its own Fabric peers and attaches to the existing **Galachain asset-channel** 
 > **Provisioning Surface:** **Chainlaunch Web GUI** only (no CLI syntax).  
 
 ---
@@ -16,8 +16,16 @@
 
 ---
 
+## 0 · Setup Chainlaunch
+
+- Follow the official Chainlaunch documentation to set up your environment and meet all prerequisites.
+- Start with the documentation introduction here: [Introduction to ChainLaunch](https://docs.chainlaunch.dev/getting-started)
+- Ensure you navigate to the specific **"Getting started"** guide linked within their documentation for detailed setup steps and requirements.
+
+---
+
 ## 1 · Define Your Fabric Organization (Phase 1)
-- See Prequesites in chainlaunch | <https://docs.chainlaunch.dev/getting-started> |
+- See detailed instructions  in chainlaunch | <<https://docs.chainlaunch.dev/guides/create-org> |
 - In Chainlaunch GUI, open **Organizations → Create**.  
 - Enter **Org Name**, **MSP ID**, and public domain.  
 - Chainlaunch autogenerates admin identities and stores crypto in the workspace vault.
@@ -26,7 +34,7 @@
 
 ## 2 · Provision Peer Nodes (Phase 2)
 
-- Navigate to **Nodes → Bulk Create**: choose peer count, CPU/RAM, region/VPC.  
+- Navigate to **Nodes → Bulk Create**: choose peer count, CPU/RAM, region/VPC.  | <<https://docs.chainlaunch.dev/guides/create-nodes>>
 - After provisioning, the dashboard displays for each peer:  
   - **Static public IP / DNS**  
   - **TLS server certificate**  
