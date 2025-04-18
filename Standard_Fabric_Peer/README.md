@@ -1,4 +1,4 @@
-# Minimal Fabric Peer Organization Setup (Org1 with Fabric CA)
+# Minimal Fabric Peer Organization Setup for Galachain
 
 ## Purpose
 
